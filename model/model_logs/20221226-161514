@@ -1,0 +1,30 @@
+2022-12-26 16:15:14,601:INFO: Tensorflow has access to the following devices
+2022-12-26 16:15:14,752:INFO: . PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')
+2022-12-26 16:15:14,754:INFO: Configurations successfully loaded
+2022-12-26 16:15:14,759:INFO: Training Data successfully loaded
+2022-12-26 16:15:14,762:INFO: Test Data successfully loaded
+2022-12-26 16:15:15,943:INFO: Model built successfully for single_point
+2022-12-26 16:15:15,947:INFO: Model compiled successfully
+2022-12-26 16:15:15,947:INFO: #######Training Single Step Model#######
+2022-12-26 16:15:23,984:INFO: Training Completed
+2022-12-26 16:15:24,584:INFO: Predicting point-by-point...
+2022-12-26 16:15:26,212:INFO: #######Training Multiple Step Model#######
+2022-12-26 16:15:26,896:INFO: Model built successfully for multi_sequence_oneshot
+2022-12-26 16:15:26,900:INFO: Model compiled successfully
+2022-12-26 16:15:33,027:INFO: Training Completed
+2022-12-26 16:15:33,031:INFO: Predicting multiple sequences using one shot model...
+2022-12-26 16:15:34,026:INFO: #######Training Feedback Model#######
+2022-12-26 16:15:34,032:INFO: 
+Start of each epoch 0
+2022-12-26 16:15:50,512:INFO: Mean Training Loss: 0.001113584265112877
+2022-12-26 16:15:52,976:INFO: Mean Validation Loss: 0.0019117658957839012
+2022-12-26 16:15:52,976:INFO: Time taken: 18.94
+2022-12-26 16:15:52,978:INFO: 
+Start of each epoch 1
+2022-12-26 16:16:05,907:INFO: Mean Training Loss: 0.0011127575999125838
+2022-12-26 16:16:07,658:INFO: Mean Validation Loss: 0.0015724258264526725
+2022-12-26 16:16:07,658:INFO: Time taken: 14.68
+2022-12-26 16:16:45,943:WARNING: Found untraced functions such as lstm_cell_layer_call_fn, lstm_cell_layer_call_and_return_conditional_losses, lstm_cell_1_layer_call_fn, lstm_cell_1_layer_call_and_return_conditional_losses, lstm_cell_2_layer_call_fn while saving (showing 5 of 6). These functions will not be directly callable after loading.
+2022-12-26 16:16:47,758:INFO: Assets written to: model\saved_models\20221226-161514\single_step\assets
+2022-12-26 16:16:56,370:WARNING: Found untraced functions such as lstm_cell_3_layer_call_fn, lstm_cell_3_layer_call_and_return_conditional_losses, lstm_cell_4_layer_call_fn, lstm_cell_4_layer_call_and_return_conditional_losses, lstm_cell_5_layer_call_fn while saving (showing 5 of 6). These functions will not be directly callable after loading.
+2022-12-26 16:16:58,323:INFO: Assets written to: model\saved_models\20221226-161514\multi_step\assets

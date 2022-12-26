@@ -1,0 +1,120 @@
+2022-12-26 16:27:33,262:INFO: Tensorflow has access to the following devices
+2022-12-26 16:27:33,324:INFO: . PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')
+2022-12-26 16:27:33,325:INFO: Configurations successfully loaded
+2022-12-26 16:27:33,331:INFO: Training Data successfully loaded
+2022-12-26 16:27:33,336:INFO: Test Data successfully loaded
+2022-12-26 16:27:34,342:INFO: Model built successfully for single_point
+2022-12-26 16:27:34,351:INFO: Model compiled successfully
+2022-12-26 16:27:34,352:INFO: #######Training Single Step Model#######
+2022-12-26 16:28:03,499:INFO: Training Completed
+2022-12-26 16:28:03,995:INFO: Predicting point-by-point...
+2022-12-26 16:28:05,370:INFO: #######Training Multiple Step Model#######
+2022-12-26 16:28:05,976:INFO: Model built successfully for multi_sequence_oneshot
+2022-12-26 16:28:05,980:INFO: Model compiled successfully
+2022-12-26 16:28:19,100:INFO: Training Completed
+2022-12-26 16:28:19,108:INFO: Predicting multiple sequences using one shot model...
+2022-12-26 16:28:20,513:INFO: #######Training Feedback Model#######
+2022-12-26 16:28:20,519:INFO: 
+Start of each epoch 0
+2022-12-26 16:28:37,624:INFO: Mean Training Loss: 0.001076904241926968
+2022-12-26 16:28:40,169:INFO: Mean Validation Loss: 0.0019557164050638676
+2022-12-26 16:28:40,169:INFO: Time taken: 19.65
+2022-12-26 16:28:40,171:INFO: 
+Start of each epoch 1
+2022-12-26 16:28:53,559:INFO: Mean Training Loss: 0.0011941664852201939
+2022-12-26 16:28:55,059:INFO: Mean Validation Loss: 0.0014240698656067252
+2022-12-26 16:28:55,060:INFO: Time taken: 14.89
+2022-12-26 16:28:55,061:INFO: 
+Start of each epoch 2
+2022-12-26 16:29:09,999:INFO: Mean Training Loss: 0.0009215098689310253
+2022-12-26 16:29:12,045:INFO: Mean Validation Loss: 0.0016579350922256708
+2022-12-26 16:29:12,045:INFO: Time taken: 16.98
+2022-12-26 16:29:12,047:INFO: 
+Start of each epoch 3
+2022-12-26 16:29:26,298:INFO: Mean Training Loss: 0.0008852383471094072
+2022-12-26 16:29:27,778:INFO: Mean Validation Loss: 0.001437022932805121
+2022-12-26 16:29:27,779:INFO: Time taken: 15.73
+2022-12-26 16:29:27,780:INFO: 
+Start of each epoch 4
+2022-12-26 16:29:40,980:INFO: Mean Training Loss: 0.0007870511035434902
+2022-12-26 16:29:42,351:INFO: Mean Validation Loss: 0.0011298436438664794
+2022-12-26 16:29:42,352:INFO: Time taken: 14.57
+2022-12-26 16:29:42,353:INFO: 
+Start of each epoch 5
+2022-12-26 16:29:54,954:INFO: Mean Training Loss: 0.0007079176139086485
+2022-12-26 16:29:56,420:INFO: Mean Validation Loss: 0.0010240853298455477
+2022-12-26 16:29:56,421:INFO: Time taken: 14.07
+2022-12-26 16:29:56,422:INFO: 
+Start of each epoch 6
+2022-12-26 16:30:09,523:INFO: Mean Training Loss: 0.000675040006171912
+2022-12-26 16:30:11,066:INFO: Mean Validation Loss: 0.0009783805580809712
+2022-12-26 16:30:11,066:INFO: Time taken: 14.64
+2022-12-26 16:30:11,068:INFO: 
+Start of each epoch 7
+2022-12-26 16:30:24,548:INFO: Mean Training Loss: 0.0006388376350514591
+2022-12-26 16:30:26,067:INFO: Mean Validation Loss: 0.0009401480783708394
+2022-12-26 16:30:26,067:INFO: Time taken: 15.00
+2022-12-26 16:30:26,069:INFO: 
+Start of each epoch 8
+2022-12-26 16:30:39,530:INFO: Mean Training Loss: 0.0006109989481046796
+2022-12-26 16:30:41,305:INFO: Mean Validation Loss: 0.0009282329119741917
+2022-12-26 16:30:41,306:INFO: Time taken: 15.24
+2022-12-26 16:30:41,307:INFO: 
+Start of each epoch 9
+2022-12-26 16:30:55,359:INFO: Mean Training Loss: 0.0005881704855710268
+2022-12-26 16:30:56,890:INFO: Mean Validation Loss: 0.0009169288096018136
+2022-12-26 16:30:56,890:INFO: Time taken: 15.58
+2022-12-26 16:30:56,892:INFO: 
+Start of each epoch 10
+2022-12-26 16:31:10,595:INFO: Mean Training Loss: 0.0005739486659877002
+2022-12-26 16:31:12,166:INFO: Mean Validation Loss: 0.00091169448569417
+2022-12-26 16:31:12,168:INFO: Time taken: 15.27
+2022-12-26 16:31:12,169:INFO: 
+Start of each epoch 11
+2022-12-26 16:31:25,491:INFO: Mean Training Loss: 0.0005585714243352413
+2022-12-26 16:31:26,953:INFO: Mean Validation Loss: 0.000906868081074208
+2022-12-26 16:31:26,954:INFO: Time taken: 14.79
+2022-12-26 16:31:26,956:INFO: 
+Start of each epoch 12
+2022-12-26 16:31:40,312:INFO: Mean Training Loss: 0.0005489279865287244
+2022-12-26 16:31:41,734:INFO: Mean Validation Loss: 0.0009001800790429115
+2022-12-26 16:31:41,735:INFO: Time taken: 14.78
+2022-12-26 16:31:41,737:INFO: 
+Start of each epoch 13
+2022-12-26 16:31:55,579:INFO: Mean Training Loss: 0.0005398268112912774
+2022-12-26 16:31:57,112:INFO: Mean Validation Loss: 0.0008971891365945339
+2022-12-26 16:31:57,112:INFO: Time taken: 15.38
+2022-12-26 16:31:57,114:INFO: 
+Start of each epoch 14
+2022-12-26 16:32:10,253:INFO: Mean Training Loss: 0.0005354015156626701
+2022-12-26 16:32:12,154:INFO: Mean Validation Loss: 0.0008910439792089164
+2022-12-26 16:32:12,156:INFO: Time taken: 15.04
+2022-12-26 16:32:12,162:INFO: 
+Start of each epoch 15
+2022-12-26 16:32:27,616:INFO: Mean Training Loss: 0.0005251041147857904
+2022-12-26 16:32:29,199:INFO: Mean Validation Loss: 0.0008857062202878296
+2022-12-26 16:32:29,199:INFO: Time taken: 17.04
+2022-12-26 16:32:29,202:INFO: 
+Start of each epoch 16
+2022-12-26 16:32:43,498:INFO: Mean Training Loss: 0.000519630906637758
+2022-12-26 16:32:45,213:INFO: Mean Validation Loss: 0.0008783841622062027
+2022-12-26 16:32:45,213:INFO: Time taken: 16.01
+2022-12-26 16:32:45,215:INFO: 
+Start of each epoch 17
+2022-12-26 16:32:58,390:INFO: Mean Training Loss: 0.0005135546089150012
+2022-12-26 16:32:59,822:INFO: Mean Validation Loss: 0.0008729995461180806
+2022-12-26 16:32:59,823:INFO: Time taken: 14.61
+2022-12-26 16:32:59,825:INFO: 
+Start of each epoch 18
+2022-12-26 16:33:16,567:INFO: Mean Training Loss: 0.0005069380276836455
+2022-12-26 16:33:18,468:INFO: Mean Validation Loss: 0.0008620460284873843
+2022-12-26 16:33:18,469:INFO: Time taken: 18.64
+2022-12-26 16:33:18,472:INFO: 
+Start of each epoch 19
+2022-12-26 16:33:32,955:INFO: Mean Training Loss: 0.0005030084867030382
+2022-12-26 16:33:34,733:INFO: Mean Validation Loss: 0.0008550995262339711
+2022-12-26 16:33:34,733:INFO: Time taken: 16.26
+2022-12-26 16:34:13,732:WARNING: Found untraced functions such as lstm_cell_layer_call_fn, lstm_cell_layer_call_and_return_conditional_losses, lstm_cell_1_layer_call_fn, lstm_cell_1_layer_call_and_return_conditional_losses, lstm_cell_2_layer_call_fn while saving (showing 5 of 6). These functions will not be directly callable after loading.
+2022-12-26 16:34:15,162:INFO: Assets written to: model\saved_models\20221226-162733\single_step\assets
+2022-12-26 16:34:24,561:WARNING: Found untraced functions such as lstm_cell_3_layer_call_fn, lstm_cell_3_layer_call_and_return_conditional_losses, lstm_cell_4_layer_call_fn, lstm_cell_4_layer_call_and_return_conditional_losses, lstm_cell_5_layer_call_fn while saving (showing 5 of 6). These functions will not be directly callable after loading.
+2022-12-26 16:34:26,792:INFO: Assets written to: model\saved_models\20221226-162733\multi_step\assets
