@@ -1,0 +1,68 @@
+{
+    "data": {
+        "api_key": "YTINWG5HI2HG5PXL",
+        "ticker": "SPY",
+        "start_date": "2016-01-01",
+        "train_test_split": 0.2
+    },
+    "data_generator":{
+        "input_width": 10,
+        "input_columns": ["Close", "MA", "Bollinger_Upper", "Bollinger_Lower"],
+        "strides": 1,
+        "label_width": 1,
+        "label_columns": ["Close"], 
+        "normalize": true
+    },
+    "training":{
+        "epochs": 20,
+        "batch_size":32,
+        "model_type": "lstm_model",
+        "loss": "mse",
+        "optimizer": "adam",
+        "learning_rate": 0.0003,
+        "training_type": ["single_point", "multi_sequence_oneshot", "multi_sequence_feedback"],
+        "multi_sequence_length": 5,
+        "save_model": true
+    },
+    "models":{
+        "lstm_model":{
+            "layers":[
+                {
+                    "type": "lstm",
+                    "neurons": 128,
+                    "return_sequences": true
+                },
+                {
+                    "type": "dropout",
+                    "dropout_rate": 0.2
+                },
+                {
+                    "type": "lstm",
+                    "neurons": 64,
+                    "return_sequences": true
+                },
+                {
+                    "type": "dropout",
+                    "dropout_rate": 0.1
+                },
+                {
+                    "type":"lstm",
+                    "neurons": 32,
+                    "return_sequences": false
+                }
+            ]
+        }
+    },
+    "plotting":{
+        "save_plots": true,
+        "filename": "SPY",
+        "n_points": 100,
+        "one_shot_model": {
+            "n_points": 100
+        },
+        "feedback_model": {
+            "num_seq": 20
+        }
+    }
+
+}
